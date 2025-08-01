@@ -1,19 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import {
-  Heart,
-  Sparkles,
-  Eye,
-  Scissors,
-  Zap,
-  Users,
-  Stethoscope,
-  Dumbbell,
-  HeartPulseIcon,
-  HandMetalIcon,
-  Star,
-  Stars,
-} from "lucide-react";
+import { Heart, Stethoscope, Dumbbell, Stars } from "lucide-react";
 
 const Services = () => {
   const [selectedService, setSelectedService] = useState(null);

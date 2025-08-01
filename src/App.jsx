@@ -1,11 +1,10 @@
-import { motion } from "framer-motion";
 import Header from "./components/headers";
-import Hero from "./components/Hero";
+import Hero from "./components/hero";
 import Services from "./components/services";
 /* import Gallery from "./components/Gallery"; */
-import Schedule from "./components/Schedule";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Schedule from "./components/schedule";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
 import "./App.css";
 
 export default function App() {
