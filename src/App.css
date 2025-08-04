@@ -69,9 +69,6 @@ body {
 }
 
 /* Transiciones suaves */
-* {
-  transition: all 0.3s ease;
-}
 
 /* Evitar selección de texto en botones */
 button, .no-select {
