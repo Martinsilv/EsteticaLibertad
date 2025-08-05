@@ -67,8 +67,8 @@ const Services = () => {
   ];
 
   const generateWhatsAppMessage = (service) => {
-    const message = `Hola! Me interesa el servicio de ${service.name}. Me gustaría recibir más información y agendar una cita.`;
-    return `https://wa.me/5493415551234?text=${encodeURIComponent(message)}`;
+    const message = `Hola! Me interesa el servicio de ${service.name}. Me gustaría recibir más información.`;
+    return `https://wa.me/543794286202?text=${encodeURIComponent(message)}`;
   };
 
   return (
@@ -88,7 +88,7 @@ const Services = () => {
               fontWeight: 600,
             }}
           >
-            Nuestros
+            Nuestros{" "}
             <span className="bg-gradient-to-r from-purple-600 to-purple-500 bg-clip-text text-transparent">
               Servicios
             </span>
@@ -108,11 +108,8 @@ const Services = () => {
             return (
               <motion.div
                 key={service.id}
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                whileHover={{ y: -10 }}
+                whileHover={{ y: -2 }}
                 className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group"
               >
                 <div className={`h-2 bg-gradient-to-r ${service.color}`} />

@@ -27,7 +27,7 @@ const Hero = () => {
               repeat: Infinity,
               repeatType: "reverse",
             }}
-            className="absolute text-pink-300"
+            className="absolute text-pink-100"
             style={{
               left: `${20 + index * 30}%`,
               top: `${30 + index * 20}%`,

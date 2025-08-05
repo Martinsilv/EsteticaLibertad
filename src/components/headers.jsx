@@ -17,7 +17,7 @@ const Header = () => {
   const navItems = [
     { name: "Inicio", href: "#hero" },
     { name: "Servicios", href: "#services" },
-    { name: "Galería", href: "#gallery" },
+
     { name: "Horarios", href: "#schedule" },
     { name: "Contacto", href: "#contact" },
   ];
@@ -93,14 +93,14 @@ const Header = () => {
           {/* Logo */}
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="flex items-center space-x-2"
+            className="flex items-center  space-x-2"
           >
             <img src={logo} alt="Logo" className="w-14 h-14" />
             <span
               className="text-xl font-bold text-gray-800"
               style={{
                 fontFamily: "Dancing Script, cursive",
-                fontSize: "2.5rem",
+                fontSize: "1.5rem",
               }}
             >
               Estética Libertad
